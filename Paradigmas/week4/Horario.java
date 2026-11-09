@@ -2,7 +2,7 @@ public class Horario{
     int hora;
     int minuto;
 
-    Horario();
+    Horario(){};
 
     public int getHora(){
         return this.hora;

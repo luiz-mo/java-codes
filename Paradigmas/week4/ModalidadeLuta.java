@@ -4,6 +4,8 @@ public abstract class ModalidadeLuta extends ModalidadeEsportiva{
     protected String estrategia;
     protected String tipoLuta;
 
+    ModalidadeLuta(){};
+
     public String[] getEquipamentosDeLuta(){
         return this.equipamentosDeLuta;
     }
