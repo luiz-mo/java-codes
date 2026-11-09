@@ -3,7 +3,7 @@ public class Autor{
     private String nacionalidade;
 
     public Autor(){}
-    
+
     public String getNome(){
         return this.nome;
     }
