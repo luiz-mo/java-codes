@@ -1,3 +1,3 @@
 public interface ServicoMusica{
-    public void reproduzirMusica(String musica){}
+    void reproduzirMusica(String musica);
 }
