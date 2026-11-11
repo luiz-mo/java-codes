@@ -34,7 +34,7 @@ public abstract class ModalidadeLuta extends ModalidadeEsportiva{
         this.estrategia = estrategia;
     }
 
-    public void setTipoLuta(){
-         
+    public void setTipoLuta(String tipoLuta){
+         this.tipoLuta = tipoLuta;
     }
 }
